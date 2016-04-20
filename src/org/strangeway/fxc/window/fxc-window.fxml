@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+<VBox prefHeight="600" prefWidth="800" spacing="5" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.strangeway.fxc.window.FxcWindow">
+
+    <WebView prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS"/>
+</VBox>
