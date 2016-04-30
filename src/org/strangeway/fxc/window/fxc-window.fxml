@@ -5,5 +5,5 @@
       xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="org.strangeway.fxc.window.FxcWindow">
 
-    <WebView prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS"/>
+    <WebView fx:id="webview" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS"/>
 </VBox>
