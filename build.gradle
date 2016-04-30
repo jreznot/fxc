@@ -4,6 +4,8 @@ buildscript {
     }
 }
 
+apply from: 'http://plugins.jasoft.fi/vaadin.plugin'
+
 allprojects {
     group = 'org.strangeway.fxc'
     version = '0.1'
@@ -43,3 +45,21 @@ dependencies {
 
 applicationName = 'fxc'
 mainClassName = 'org.strangeway.fxc.FxcLauncher'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+javadoc.enabled = false
+vaadinJavadocJar.enabled = false
+vaadinSourcesJar.enabled = false
+vaadinUpdateAddonStyles.enabled = false
+vaadinUpdateWidgetset.enabled = false
+
+vaadin {
+    debug = true
+    version = '7.6.5'
+
+    plugin {
+        themesDirectory = 'web/VAADIN/themes'
+    }
+}
