@@ -46,6 +46,8 @@ dependencies {
 applicationName = 'fxc'
 mainClassName = 'org.strangeway.fxc.FxcLauncher'
 
+webAppDirName = 'web'
+
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
